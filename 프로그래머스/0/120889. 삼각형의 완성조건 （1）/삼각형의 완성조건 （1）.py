@@ -6,3 +6,11 @@ def solution(sides):
     else:
         answer = 2
     return answer
+
+
+def solution(sides):
+    return 1 if max(sides) < (sum(sides) - max(sides)) else 2
+
+
+
+
