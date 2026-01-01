@@ -1,6 +1,16 @@
-def solution(numbers):
-    answer = 0
-    for i in numbers:
-        answer += i
 
-    return answer / len(numbers)
+
+
+
+                        
+                        
+def solution(numbers):
+    
+    return f"{sum(numbers) / len(numbers):.1f}"
+                        
+                        
+                        
+    
+                        
+                        
+                        
