@@ -4,3 +4,13 @@ def solution(my_string):
 
     return answer
 
+
+
+def solution(my_string):
+
+    return my_string[::-1]
+
+
+
+
+
