@@ -8,3 +8,11 @@ def solution(n):
         answer = n // 7
 
     return answer
+
+
+
+
+
+def solution(n):
+    return (n+6)// 7
+
