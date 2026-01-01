@@ -14,5 +14,7 @@ def solution(n):
 
 
 def solution(n):
-    return (n+6)// 7
+    return (n+6) // 7
+
+
 
