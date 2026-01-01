@@ -4,3 +4,15 @@ def solution(n):
         answer += i
 
     return answer
+
+
+
+
+
+def solution(n):
+    
+    return sum(list(range(0,n+1,2)))
+
+
+
+
