@@ -1,8 +1,6 @@
 def solution(my_string, n):
-    str = ""
+    mystr = ""
     for i in my_string:
-        str += i * n
-    return str
-
-
+        mystr += i*n
+    return mystr
 
