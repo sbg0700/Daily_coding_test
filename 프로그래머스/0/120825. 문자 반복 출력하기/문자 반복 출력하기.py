@@ -3,3 +3,6 @@ def solution(my_string, n):
     for i in my_string:
         str += i * n
     return str
+
+
+
