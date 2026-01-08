@@ -1,22 +1,13 @@
 def solution(dot):
     x,y = dot
-    if x > 0 and y > 0:
+    if x>0 and y>0:
         return 1
-    elif x < 0 and y > 0:
-        return 2
-    elif x < 0 and y < 0:
-        return 3
-    else:  # x > 0 and y < 0
+    elif x>0 and y<0:
         return 4
-    
-    
-    
-def solution(dot):
-    x,y = dot
-    if x*y>0:
-        return 1 if x>0 else 3
+    elif x<0 and y>0:
+        return 2
     else:
-        return 4 if x>0 else 2
+        return 3
     
     
     
