@@ -5,4 +5,13 @@ def solution(n):
         a += int(i)
         
     return a
+
+
+
+
+def solution(n):
+    return sum(int(i) for i in str(n))
+
+
+
     
