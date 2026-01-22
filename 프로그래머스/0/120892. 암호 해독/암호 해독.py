@@ -4,3 +4,4 @@ def solution(cipher, code):
         answer += cipher[code*i-1]
 
     return answer
+
